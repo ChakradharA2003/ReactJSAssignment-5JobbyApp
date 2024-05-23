@@ -1,0 +1,26 @@
+* {
+  font-family: 'Roboto';
+}
+.not-found-container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-heading {
+  color: #ffffff;
+}
+.not-found-description {
+  color: #7e858e;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .not-found-image {
+    height: 250px;
+    width: 250px;
+  }
+  .not-found-description {
+    text-align: center;
+  }
+}
